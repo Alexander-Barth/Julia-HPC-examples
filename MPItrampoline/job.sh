@@ -12,4 +12,4 @@ module load EasyBuild/2024a OpenMPI/5.0.3-GCC-13.3.0
 export MPITRAMPOLINE_MPIEXEC=$HOME/mpiwrapper/bin/mpiwrapper-mpiexec
 export MPITRAMPOLINE_LIB=$HOME/mpiwrapper/lib64/libmpiwrapper.so
 
-srun julia --project=. script.jl
+srun julia --project=. "$@"

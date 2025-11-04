@@ -9,4 +9,4 @@
 # modules for Lucia (need to be adapted for other clusters)
 module load EasyBuild/2024a OpenMPI/5.0.3-GCC-13.3.0
 
-srun julia --project=. script.jl
+srun julia --project=. "$@"

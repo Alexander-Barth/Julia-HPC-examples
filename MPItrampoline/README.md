@@ -18,7 +18,7 @@ ldd ~/mpiwrapper/lib64/libmpiwrapper.so
 Run as:
 
 ```bash
-sbatch --account=$SLURM_ACCOUNT job.sh
+sbatch --account=$SLURM_ACCOUNT job.sh script.jl
 ```
 
 where you replace `$SLURM_ACCOUNT` by your account name or drop this parameter if this is not necessary for your cluster.
