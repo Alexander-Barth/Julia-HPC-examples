@@ -1,6 +1,5 @@
 #!/bin/bash
 #SBATCH --job-name=test
-#SBATCH --partition=debug
 #SBATCH --time=00:15:00
 #SBATCH --ntasks=4
 #SBATCH --mem-per-cpu=700M

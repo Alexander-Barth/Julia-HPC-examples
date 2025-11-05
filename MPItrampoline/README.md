@@ -18,9 +18,12 @@ ldd ~/mpiwrapper/lib64/libmpiwrapper.so
 Run as:
 
 ```bash
-sbatch --account=$SLURM_ACCOUNT job.sh script.jl
+sbatch --partition=debug --account=$SLURM_ACCOUNT job.sh script.jl
+sbatch --partition=debug --account=$SLURM_ACCOUNT job.sh script-serial-netcdf.jl
+sbatch --partition=debug --account=$SLURM_ACCOUNT job.sh script-parallel-netcdf.jl
+
 ```
 
-where you replace `$SLURM_ACCOUNT` by your account name or drop this parameter if this is not necessary for your cluster.
+where you replace `$SLURM_ACCOUNT` by your account name or drop this parameter if this is not necessary for your cluster and use the appropriate partition name.
 
 
