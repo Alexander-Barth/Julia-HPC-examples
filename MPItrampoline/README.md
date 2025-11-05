@@ -7,6 +7,16 @@ Setup the example (need to be run only once), this will install `mpiwrapper` in 
 ./setup.sh
 ```
 
+See also the (installation instructions of MPItrampoline)[https://github.com/eschnett/MPItrampoline] for more information.
+
+Check the configured MPI library for MPI.jl
+
+```bash
+cat LocalPreferences.toml
+```
+
+It should mention `MPItrampoline_jll`.
+
 Check the wrapped library:
 
 ```bash
