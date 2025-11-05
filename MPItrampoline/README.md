@@ -7,7 +7,7 @@ Setup the example (need to be run only once), this will install `mpiwrapper` in 
 ./setup.sh
 ```
 
-See also the (installation instructions of MPItrampoline)[https://github.com/eschnett/MPItrampoline] for more information.
+See also the [installation instructions of MPItrampoline](https://github.com/eschnett/MPItrampoline) for more information.
 
 Check the configured MPI library for MPI.jl
 
